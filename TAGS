@@ -1,0 +1,121 @@
+
+app/models/child.rb,42
+class Child < ApplicationRecordChild1,0
+
+app/models/application_record.rb,67
+class ApplicationRecord < ActiveRecord::BaseApplicationRecord1,0
+
+app/models/chore.rb,42
+class Chore < ApplicationRecordChore1,0
+
+app/models/task.rb,40
+class Task < ApplicationRecordTask1,0
+
+app/controllers/application_controller.rb,79
+class ApplicationController < ActionController::BaseApplicationController1,0
+
+app/controllers/tasks_controller.rb,294
+class TasksController < ApplicationControllerTasksController1,0
+  def indexindex6,0
+  def showshow12,0
+  def newnew16,0
+  def editedit21,0
+  def createcreate26,0
+  def updateupdate42,0
+  def destroydestroy56,0
+    def set_taskset_task66,0
+    def task_paramstask_params71,0
+
+app/controllers/children_controller.rb,304
+class ChildrenController < ApplicationControllerChildrenController1,0
+  def indexindex6,0
+  def showshow12,0
+  def newnew16,0
+  def editedit21,0
+  def createcreate26,0
+  def updateupdate42,0
+  def destroydestroy56,0
+    def set_childset_child66,0
+    def child_paramschild_params71,0
+
+app/controllers/chores_controller.rb,300
+class ChoresController < ApplicationControllerChoresController1,0
+  def indexindex6,0
+  def showshow12,0
+  def newnew16,0
+  def editedit21,0
+  def createcreate26,0
+  def updateupdate42,0
+  def destroydestroy56,0
+    def set_choreset_chore66,0
+    def chore_paramschore_params71,0
+
+app/helpers/children_helper.rb,41
+module ChildrenHelperChildrenHelper1,0
+
+app/helpers/tasks_helper.rb,35
+module TasksHelperTasksHelper1,0
+
+app/helpers/chores_helper.rb,37
+module ChoresHelperChoresHelper1,0
+
+app/helpers/application_helper.rb,47
+module ApplicationHelperApplicationHelper1,0
+
+test/contexts.rb,271
+module ContextsContexts1,0
+  def create_childrencreate_children2,0
+  def destroy_childrendestroy_children8,0
+  def create_taskscreate_tasks14,0
+  def destroy_tasksdestroy_tasks22,0
+  def create_chorescreate_chores30,0
+  def destroy_choresdestroy_chores40,0
+
+test/models/task_test.rb,54
+class TaskTest < ActiveSupport::TestCaseTaskTest3,0
+
+test/models/chore_test.rb,56
+class ChoreTest < ActiveSupport::TestCaseChoreTest3,0
+
+test/models/child_test.rb,56
+class ChildTest < ActiveSupport::TestCaseChildTest3,0
+
+test/test_helper.rb,143
+class ActiveSupport::TestCaseTestCase12,0
+class ActiveSupport::TestCaseActiveSupport::TestCase12,0
+  def deny(condition, msg="")deny19,0
+
+test/controllers/children_controller_test.rb,85
+class ChildrenControllerTest < ActionController::TestCaseChildrenControllerTest3,0
+
+test/controllers/chores_controller_test.rb,81
+class ChoresControllerTest < ActionController::TestCaseChoresControllerTest3,0
+
+test/controllers/tasks_controller_test.rb,79
+class TasksControllerTest < ActionController::TestCaseTasksControllerTest3,0
+
+test/helpers/children_helper_test.rb,71
+class ChildrenHelperTest < ActionView::TestCaseChildrenHelperTest3,0
+
+test/helpers/chores_helper_test.rb,67
+class ChoresHelperTest < ActionView::TestCaseChoresHelperTest3,0
+
+test/helpers/tasks_helper_test.rb,65
+class TasksHelperTest < ActionView::TestCaseTasksHelperTest3,0
+
+config/application.rb,167
+module ChoreTrackerChoreTracker9,0
+  class Application < Rails::ApplicationApplication10,0
+  class Application < Rails::ApplicationChoreTracker::Application10,0
+
+db/migrate/20140217221709_create_children.rb,95
+class CreateChildren < ActiveRecord::Migration[5.0]CreateChildren1,0
+  def changechange2,0
+
+db/migrate/20140217221747_create_chores.rb,91
+class CreateChores < ActiveRecord::Migration[5.0]CreateChores1,0
+  def changechange2,0
+
+db/migrate/20140217221809_create_tasks.rb,89
+class CreateTasks < ActiveRecord::Migration[5.0]CreateTasks1,0
+  def changechange2,0
