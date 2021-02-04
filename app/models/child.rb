@@ -4,8 +4,8 @@ class Child < ApplicationRecord
   has_many :tasks, through: :chores 
   
   # Scopes
-  scope :alphabetical, -> { order('last_name, first_name') }
-  scope :active, -> { where(active: true) }
+  scope :alphabetical,    -> { order('last_name, first_name') }
+  scope :active,          -> { where(active: true) }
 
   # Validations
   validates_presence_of :first_name, :last_name
