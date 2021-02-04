@@ -20,6 +20,11 @@
       "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/models/child.rb": [
         0,
         null,
+        0,
+        0,
+        null,
+        null,
+        null,
         0
       ],
       "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/models/application_record.rb": [
@@ -271,7 +276,7 @@
         0
       ]
     },
-    "timestamp": 1612411149
+    "timestamp": 1612449382
   },
   "Unit Tests": {
     "coverage": {
@@ -294,6 +299,11 @@
       "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/models/child.rb": [
         1,
         null,
+        1,
+        1,
+        null,
+        null,
+        1,
         null
       ],
       "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/models/application_record.rb": [
@@ -302,12 +312,16 @@
         null
       ],
       "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/models/chore.rb": [
-        0,
-        0
+        1,
+        1,
+        1,
+        null
       ],
       "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/models/task.rb": [
-        0,
-        0
+        1,
+        1,
+        1,
+        null
       ],
       "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/controllers/application_controller.rb": [
         0,
@@ -545,6 +559,6 @@
         0
       ]
     },
-    "timestamp": 1612409878
+    "timestamp": 1612452993
   }
 }

@@ -6,6 +6,10 @@ SimpleCov.start 'rails'
 ENV["RAILS_ENV"] ||= "test"
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
+require "minitest"
+require 'minitest/rails'
+require 'minitest/reporters'
+require 'minitest_extensions'
 require 'contexts'
 
 
@@ -25,6 +29,7 @@ class ActiveSupport::TestCase
   # Note: You'll currently still have to declare fixtures explicitly in integration tests
   # -- they do not yet inherit this setting
   # fixtures :all
-
+  
   # Add more helper methods to be used by all tests here...
+  Minitest::Reporters.use! [Minitest::Reporters::SpecReporter.new]
 end
