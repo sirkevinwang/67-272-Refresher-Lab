@@ -363,21 +363,6 @@
         1,
         null
       ],
-      "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/models/task.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        3,
-        2,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
       "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/models/chore.rb": [
         1,
         null,
@@ -403,6 +388,21 @@
         1,
         null,
         null,
+        null
+      ],
+      "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/models/task.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        3,
+        2,
+        null,
+        null,
+        1,
+        1,
         null
       ],
       "/Users/kevin/Documents/GitHub/67373/lab5-choretracker-starter/app/controllers/application_controller.rb": [
@@ -641,6 +641,6 @@
         0
       ]
     },
-    "timestamp": 1612470766
+    "timestamp": 1612470852
   }
 }
